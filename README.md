@@ -7,5 +7,5 @@ $$ \omega_c = \frac{eB}{m_e}$$
 is met, the electron efficiently absorbs energy from the electric field.
 The velocity of the electron can be described by the following differential equation:
 <p>
-$$ \frac{\text{d}\mathbf{v}}{\text{d}t}=\frac{e}{m_e}(\mathbf{E}+\mathbf{v}\times\mathbf{B})$$
+$$ \frac{\text{d}\mathbf{v}}{\text{d}t}=\frac{e}{m_e}(\mathbf{E}(t)+\mathbf{v}(t)\times\mathbf{B})$$
 </p>
