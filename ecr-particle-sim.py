@@ -123,9 +123,13 @@ def vis_electron_path(b, f, steps):
     maxV = max(Vh)
     x = np.linspace(0, maxV, len(Vh))
     # plt.scatter(Px, Py, c=cm.inferno(Vh/maxV))
+    f = plt.figure()
+    f.set_figwidth(5)
+    f.set_figheight(5)
     plt.plot(Px, Py)
     plt.show()
 
 # minimize_fapp_err()
 
 vis_electron_path(0.0875, 2450000000, 20000)
+vis_electron_path(0.0875, 850000000, 20000)
